@@ -30,3 +30,27 @@ nav li .active {
 body {
   font-family: "gopher", sans-serif;
 }
+
+.hero h1 {
+  padding: 20px;
+  text-align: center;
+  margin: 60px 220px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.row a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  transition: all 150ms ease-in-out;
+}
+.row a:hover {
+  opacity: 0.6;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 20px 0;
+  font-weight: normal;
+}
