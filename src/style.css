@@ -1,0 +1,17 @@
+nav ul {
+  list-style: none;
+  margin: none;
+  padding: none;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: black;
+  margin-top: 10px;
+}
+.logo {
+  max-height: 80px;
+  padding: 10px 0;
+}
