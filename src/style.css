@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #857eee;
+  --secondary-color: ;
+  --heading-font: ;
+  --default-font: ;
+}
+
 nav {
   padding-top: 10px;
 }
@@ -53,4 +60,15 @@ h2 {
   font-size: 36px;
   margin: 20px 0;
   font-weight: normal;
+}
+
+footer {
+  text-align: center;
+  font-size: 11px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: var(--primary-color);
 }
