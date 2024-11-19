@@ -38,6 +38,10 @@ body {
   font-family: "gopher", sans-serif;
 }
 
+p {
+  font-size: 14px;
+}
+
 .hero h1 {
   padding: 20px;
   text-align: center;
@@ -71,4 +75,13 @@ footer {
 
 footer a {
   color: var(--primary-color);
+}
+
+.student-project {
+  font-size: 11px;
+}
+
+.next-project-selectors {
+  font-size: 33px;
+  font-weight: 400;
 }
