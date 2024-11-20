@@ -108,9 +108,18 @@ footer a {
     padding: 20px 0px 0 0;
   }
 
+  .hero h1 {
+    margin: 0;
+    font-size: 25px;
+    padding: 10px 10px 30px;
+  }
+
+  .project-name {
+    font-size: 25px;
+  }
+
   nav a {
-    font-size: 10px;
-    margin-right: 5px;
+    margin-right: 10px;
   }
 
   .next-project-selectors {
