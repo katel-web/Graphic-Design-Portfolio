@@ -77,6 +77,15 @@ footer a {
   color: var(--primary-color);
 }
 
+.hero {
+  text-align: center;
+  padding: 0 120px;
+}
+
+.h3 {
+  font-size: 37px;
+}
+
 .student-project {
   font-size: 11px;
 }
@@ -84,4 +93,27 @@ footer a {
 .next-project-selectors {
   font-size: 33px;
   font-weight: 400;
+}
+
+.next-project-selectors a {
+  text-decoration: none;
+  color: black;
+}
+
+.next-project-selectors a:hover {
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 20px 0px 0 0;
+  }
+
+  nav a {
+    font-size: 10px;
+    margin-right: 5px;
+  }
+
+  .next-project-selectors {
+    font-size: 25px;
+  }
 }
