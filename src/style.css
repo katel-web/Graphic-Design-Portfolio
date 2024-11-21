@@ -50,6 +50,13 @@ p {
   font-weight: 500;
 }
 
+.about h1{
+    color: var(--primary-color);
+}
+.about h3{
+    color: var(--primary-color);
+}
+
 .row a {
   text-decoration: none;
   color: black;
@@ -100,10 +107,18 @@ footer a {
   color: black;
 }
 
-.next-project-selectors a:hover {
+.contact h1{
+    color: var(--primary-color);
 }
-
-
+.contact .contact-section{
+margin: 80px 0 0 0;
+}
+.contact .link{
+    color: var(--primary-color);
+}
+.contact .hero{
+    margin-bottom: 20px;
+}
 
 @media (max-width: 1000px) {
   .hero {
