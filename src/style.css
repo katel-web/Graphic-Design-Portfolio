@@ -56,6 +56,9 @@ p {
 .about h3{
     color: var(--primary-color);
 }
+.about .link{
+    color: var(--primary-color);
+}
 
 .row a {
   text-decoration: none;
